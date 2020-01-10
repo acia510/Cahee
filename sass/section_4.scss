@@ -1,0 +1,55 @@
+
+.section_4 {
+  position: relative;
+
+  .bg_4 {
+    width: 100%;
+  }
+
+  .title_5 {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #000;
+  }
+
+  .sub_title_5 {
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    max-width: 580px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  .input_flex {
+    position: absolute;
+    display: flex;
+    left: 100px;
+    top: 320px;
+
+    .form_input {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      font-size: 1.5rem;
+      color: #929292;
+      padding: 2.2rem 2.4rem;
+      border: 1px solid #000;
+      width: 570px;
+    }
+
+    .btn_green {
+      text-align: center;
+      margin-left: 30px;
+      background-color: #96b92c;
+      width: 170px;
+    }
+
+  }
+}

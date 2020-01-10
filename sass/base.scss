@@ -1,0 +1,111 @@
+@import "button.scss";
+@import "section_1";
+@import "section_2";
+@import "section_3";
+@import "section_4";
+@import "section_5";
+@import "footer";
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+
+.header {
+  position: relative;
+
+
+  .background {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .logo {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    font-size: 5rem;
+  }
+
+  .menu {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+
+
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+    }
+
+    li {
+      box-sizing: border-box;
+      display: inline-block;
+      margin-right: 38px;
+
+      :hover {
+        padding: 20px 0;
+        border-top: 3px solid #ff6033;
+      }
+    }
+  }
+
+  .main_title {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 6rem;
+  }
+
+  .sub_title {
+    max-width: 370px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+
+  .btn_orange {
+    position: absolute;
+    top: 600px;
+    left: 100px;
+  }
+
+  .icon-mouse {
+    font-size: 4rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+  }
+
+}
